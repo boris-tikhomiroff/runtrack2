@@ -1,5 +1,3 @@
 <?php 
-    $str = "Hello LaPlateforme";
-    
-    echo $str;
+    echo 'Hello LaPlateforme!';
 ?>

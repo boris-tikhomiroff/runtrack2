@@ -1,5 +1,5 @@
 <?php 
-    $str = "LaPlateforme";
+    $str = "Hello LaPlateforme";
     
     echo $str;
 ?>

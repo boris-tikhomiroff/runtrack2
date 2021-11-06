@@ -1,26 +1,22 @@
 <?php
-$i = 0; 
+// Boucle While
 
-while ($i < 1338) // Boucle While
-{
-    echo $i++ . '<br />';
-
-    if ($i == 42) {
-        echo '<b><u>';
-    }
-    else {
-        echo '</b></u>';
-    }
-}
-
-// for( $i = 0; $i <= 1337; $i++) { // Boucle for
-//     echo $i . '<br />';
-
-//     if ($i === 41) {
-//         echo '<b><u>';
+// $i = 0;
+// while ($i <= 1337) {
+//     if ($i === 42) {
+//         echo '<u>';
 //     }
 //     else {
-//         echo '</b></u>';
+//         echo '</u>';
 //     }
+//     echo $i++ . '<br/>';
 // }
-?>
+
+// Boucle For 
+
+for ($i = 0; $i <= 1337; $i++) {
+    if ($i == 42) {
+        echo '<u><b>';
+    }
+    echo $i . '</u></b><br/>';
+}

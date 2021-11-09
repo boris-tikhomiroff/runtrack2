@@ -1,12 +1,4 @@
 <?php
-// setcookie('nbvisiteurs', 0, time()+43200);
-// $_COOKIE['nbvisiteurs'] = $_COOKIE['nbvisiteurs']+1;
-
-// echo $_COOKIE['nbvisiteurs'];
-
-// if(isset($_POST['reset'])==true){
-//     setcookie('nbvisiteurs');
-// }
 
 if(!isset($_COOKIE['nbvisiteurs'])){
     setcookie('nbvisiteurs', 1, time()+43200);

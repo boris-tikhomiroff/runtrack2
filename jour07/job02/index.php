@@ -12,7 +12,7 @@ if(isset($_POST['reset'])==true){
     setcookie('nbvisiteurs');
 }
 
-?>
+?>      
 
 <form action="index.php" method="post">
     <label for="reset"></label>

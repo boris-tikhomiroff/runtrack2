@@ -8,6 +8,7 @@ $etudiants = mysqli_fetch_all($requete, MYSQLI_ASSOC);
 <table>
     <thead>
         <tr>
+            <th>id</th>
             <th>Nom</th>
             <th>Prenom</th>
             <th>naisance</th>
@@ -17,7 +18,8 @@ $etudiants = mysqli_fetch_all($requete, MYSQLI_ASSOC);
         <tbody>
         <?php
             foreach($etudiants as $etudiant){
-                echo '<tr><td>'.$etudiant['nom'].'</td>';
+                echo '<tr><td>'.$etudiant['id'].'</td>';
+                echo '<td>'.$etudiant['nom'].'</td>';
                 echo '<td>'.$etudiant['prenom'].'</td>';
                 echo '<td>'.$etudiant['naissance'].'</td>';
                 echo '<td>'.$etudiant['sexe'].'</td>';
